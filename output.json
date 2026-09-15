@@ -1,0 +1,46 @@
+[
+  {
+    "domain": "postman.com",
+    "company_overview": "Postman is an AI-native API platform that enables developers to develop, test, manage, and distribute APIs and services. It is used by over 500,000 organizations, including 98% of the Fortune 500.",
+    "target_audience": "['engineers', 'developers', 'enterprise teams']",
+    "contact_points": [],
+    "leadership": [
+      {
+        "name": "Abhinav Asthana",
+        "role": "co-founder and CEO",
+        "linkedin_url": null
+      }
+    ],
+    "confidence_score": 0.9,
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "supabase.com",
+    "company_overview": "Supabase is an open‑source Postgres development platform that provides a suite of backend services—including database, authentication, storage, realtime, and edge functions—for developers. It delivers a transparent, vendor‑neutral solution that scales from quick prototypes to applications serving millions of users.",
+    "target_audience": "Developers and fast‑growing companies looking for an open‑source, full‑stack backend platform built on Postgres.",
+    "contact_points": [],
+    "leadership": [],
+    "confidence_score": 0.9,
+    "status": "success",
+    "error": null
+  },
+  {
+    "domain": "vapi.ai",
+    "company_overview": "Vapi is a voice AI platform that lets developers and enterprises build, deploy, and manage voice agents with low‑latency, real‑time conversation capabilities. It provides enterprise‑grade features such as SSO, compliance certifications, dedicated support, and scalable infrastructure.",
+    "target_audience": "Developers, enterprises, and businesses that need scalable voice AI agents and real‑time conversational infrastructure",
+    "contact_points": [
+      "support@vapi.ai"
+    ],
+    "leadership": [
+      {
+        "name": "Jason Mitura",
+        "role": "VP of Software Development",
+        "linkedin_url": null
+      }
+    ],
+    "confidence_score": 0.98,
+    "status": "success",
+    "error": null
+  }
+]
