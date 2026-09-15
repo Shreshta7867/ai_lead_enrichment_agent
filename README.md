@@ -10,13 +10,13 @@ For each company domain in the configured list, the system:
 2. Finds relevant internal pages such as About, Team, Contact, and Pricing.
 3. Extracts visible text from those pages.
 4. Cleans the text before sending it to the LLM.
-5. Calls an OpenAI-compatible model to extract:
+5. Calls an OpenAI-compatible LLM using JSON mode to extract:
    - company overview
    - target audience / ICP
    - public contact points
    - leadership entries
    - confidence score
-6. Validates the result using Pydantic.
+6. Validates and normalizes the result using Pydantic models.
 7. Writes the final results to `output.json`.
 
 ## Project structure
@@ -34,7 +34,7 @@ For each company domain in the configured list, the system:
 ## Prerequisites
 
 - Python 3.11+
-- A working OpenAI API key if you want LLM extraction enabled
+- An API key for an OpenAI-compatible provider such as Groq
 - A browser runtime available for Playwright
 
 ## Set up a virtual environment
@@ -66,7 +66,7 @@ playwright install
 ## Configure environment variables
 
 1. Copy `.env.example` to `.env`.
-2. Add your OpenAI API key.
+2. Add your API key for the configured OpenAI-compatible provider.
 
 Example:
 
